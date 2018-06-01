@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="eng_news_choice">
+        <item>Current events</item>
+        <item>Global</item>
+        <item>Business</item>
+        <item>Entertainment</item>
+        <item>Sports</item>
+        <item>Laws</item>
+        <item>Education</item>
+    </string-array>
+
+    <string-array name="vie_news_choice">
+        <item>Tin thời sự</item>
+        <item>Tin thế giới</item>
+        <item>Tin kinh doanh</item>
+        <item>Tin giải trí</item>
+        <item>Tin thể thao</item>
+        <item>Tin pháp luật</item>
+        <item>Tin giáo dục</item>
+    </string-array>
+
+    <string-array name="eng_options_array">
+        <item>Language</item>
+        <!--<item>WiFi SSID</item>-->.
+        <!--<item>Electrical devices</item>-->
+    </string-array>
+
+    <string-array name="vie_options_array">
+        <item>Ngôn ngữ</item>
+        <!--<item>Tên mạng WiFi</item>-->
+        <!--<item>Thiết bị điện</item>-->
+    </string-array>
+</resources>

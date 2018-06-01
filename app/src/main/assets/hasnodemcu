@@ -1,0 +1,125 @@
+private boolean hasNodeMcuCommand(String command){
+        final ArrayList<String> deviceList = getDeviceList();
+
+        command = command.toLowerCase();
+
+        if (command.equals("visible mode")){
+
+            /*deviceInfoReceiver = new BroadcastReceiver() {
+
+                @Override
+                public void onReceive(Context context, Intent intent) {
+                    ArrayList<String> dv_info = intent.getStringArrayListExtra("device info");
+                    if (dv_info != null) {
+                        boolean[] onDevices = new boolean[dv_info.size()];
+                        for (int i = 0; i < dv_info.size(); i++) {
+                            onDevices[i] = dv_info.get(i).contains("on");
+                        }
+
+                        final ArrayList<Integer> selectedDevices = new ArrayList<>();
+                        DialogInterface.OnMultiChoiceClickListener onMultiChoiceClickListener = new DialogInterface.OnMultiChoiceClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which, boolean isChecked) {
+                                if (isChecked) {
+                                    selectedDevices.add(which);
+                                } else if (selectedDevices.contains(which)) {
+                                    selectedDevices.remove(Integer.valueOf(which));
+                                }
+                            }
+                        };
+                        CharSequence[] items = deviceList.toArray(new CharSequence[deviceList.size()]);
+                        AlertDialog.Builder builder = new AlertDialog.Builder(BaseActivity.this);
+                        builder.setMultiChoiceItems(items, onDevices, onMultiChoiceClickListener);
+
+                        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int id) {
+                                for (int i = 0; i < selectedDevices.size(); i++) {
+                                    Intent in = new Intent();
+                                    in.putExtra("command", "d" + selectedDevices.get(i) + "=on");
+                                    in.setAction("command");
+                                    LocalBroadcastManager.getInstance(getApplicationContext()).sendBroadcast(in);
+                                }
+                            }
+                        });
+                        builder.setNegativeButton(currentLanguage.equals("vi") ? "Hủy" : "Cancel", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int id) {
+                                dialog.dismiss();
+                            }
+                        });
+                        builder.setCancelable(false);
+                        builder.setTitle(currentLanguage.equals("vi") ? "Điều khiển thiết bị điện:" : "Vias Home Controller:");
+                        AlertDialog dialog = builder.create();
+                        dialog.show();
+                    }
+                }
+            };
+            LocalBroadcastManager.getInstance(BaseActivity.this).registerReceiver(deviceInfoReceiver, new IntentFilter("device info"));*/
+
+            Intent in = new Intent();
+            in.putExtra("command", "device info");
+            in.setAction("command");
+            LocalBroadcastManager.getInstance(getApplicationContext()).sendBroadcast(in);
+
+            return true;
+
+        } else {
+
+            Intent in = new Intent();
+
+            if (command.contains("bật") || command.contains("mở") || command.contains("turn on")) {
+
+                if (command.contains("tất cả") || command.contains("hết") || command.contains("all")) {
+                    in.putExtra("command", "&device=all&state=on");
+
+                } else {
+
+                    ArrayList<Integer> chosenDevices = checkDevice(deviceList, command);
+                    if (chosenDevices.size() > 0){
+                        String s = "";
+                        s+="&device=";
+                        for (int i = 0; i < chosenDevices.size(); i++){
+                            s+= "d"+chosenDevices.get(i);
+                        }
+                        s+="&state=on";
+                        in.putExtra("command", s);
+                    } else {
+                        return false;
+                    }
+                }
+                in.setAction("command");
+                LocalBroadcastManager.getInstance(getApplicationContext()).sendBroadcast(in);
+
+                return true;
+            } else if (command.contains("tắt") || command.contains("turn off")) {
+
+                if (command.contains("tất cả") || command.contains("hết") || command.contains("all")) {
+                    in.putExtra("command", "&device=all&state=off");
+                } else {
+                    ArrayList<Integer> chosenDevices = checkDevice(deviceList, command);
+                    if (chosenDevices.size() > 0){
+                        String s = "";
+                        s+="&device=";
+                        for (int i = 0; i < chosenDevices.size(); i++){
+                            s+= "d"+chosenDevices.get(i);
+                        }
+                        s+="&state=off";
+                        in.putExtra("command", s);
+                    } else {
+                        return false;
+                    }
+                }
+                in.setAction("command");
+                LocalBroadcastManager.getInstance(getApplicationContext()).sendBroadcast(in);
+
+                return true;
+            } else if (command.contains("trạng thái") || command.contains("status") || command.contains("state")) {
+                in.putExtra("command", "query");
+                in.setAction("command");
+                LocalBroadcastManager.getInstance(getApplicationContext()).sendBroadcast(in);
+                return true;
+            }
+        }
+        return false;
+    }

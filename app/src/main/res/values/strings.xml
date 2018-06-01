@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">VIAS</string>
+    <string name="app_name_help">Help</string>
+    <string name="app_name_news_reader">Read News</string>
+    <string name="app_name_ocr">Recognize Text</string>
+    <string name="app_name_options">Options</string>
+    <string name="app_name_object_recognizer">Recognize Object</string>
+    <string name="app_name_wiki_reader">Read Wikipedia</string>
+
+    <string name="audio_stream">music</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_base">Vias</string>
+
+    <string name="eng_description">VIAS - Virtual Assistant for the blind\n\nAuthor: Hao Phan Phu - Tran Van Thanh High school"</string>
+    <string name="vie_description">VIAS - Trợ lý ảo cho người khiếm thị\n\nTác giả: Phan Phú Hào - Trường THPT Trần Văn Thành"</string>
+
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="title_activity_home_controller_modify">Home-Controller Settings</string>
+</resources>

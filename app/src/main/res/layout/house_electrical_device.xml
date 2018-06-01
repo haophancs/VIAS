@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textDevice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="5dp">
+    </TextView>
+    <EditText
+        android:id="@+id/editDevice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:selectAllOnFocus="true">
+    </EditText>
+
+    <TextView
+        android:id="@+id/textDevice2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="5dp">
+    </TextView>
+    <EditText
+        android:id="@+id/editDevice2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:selectAllOnFocus="true">
+    </EditText>
+
+    <TextView
+        android:id="@+id/textDevice3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="5dp">
+    </TextView>
+    <EditText
+        android:id="@+id/editDevice3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:selectAllOnFocus="true">
+    </EditText>
+
+    <TextView
+        android:id="@+id/textDevice4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="5dp">
+    </TextView>
+    <EditText
+        android:id="@+id/editDevice4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:selectAllOnFocus="true">
+    </EditText>
+
+</LinearLayout>

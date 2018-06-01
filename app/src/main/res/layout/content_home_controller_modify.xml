@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.haophan.vias.homecontroller.HomeControllerModifyActivity"
+    tools:showIn="@layout/activity_home_controller_modify">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="#e0e0e0"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_alignStart="@+id/deviceListView"
+            android:weightSum="1"
+            android:id="@+id/linearLayout">
+
+            <TextView
+                android:id="@+id/tvSelectCtrl"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:elegantTextHeight="true"
+                android:text="Select controller:"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"/>
+            <Spinner
+                android:id="@+id/controller_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/deviceListView"
+            android:layout_marginBottom="10dp">
+        </ListView>
+
+        <Button
+            android:id="@+id/button_new_device"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:text="Add more device"
+            android:textSize="15dp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:layout_margin="20dp"
+            android:layout_alignTop="@+id/deviceListView"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_gravity="bottom|end"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@mipmap/ic_delete_white_36dp" />
+
+</FrameLayout>

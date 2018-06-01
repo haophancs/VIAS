@@ -1,0 +1,24 @@
+Trợ lý ảo VIAS:
+Ứng dụng trợ lý ảo VIAS là một ứng dụng trợ lý ảo với nhiều tính năng trợ giúp cho người khiếm thị
+- Để ra yêu cầu cho VIAS thực hiện một tính năng nhất định, bạn hãy nhấn giữ màn hình, sau khi nghe tiếng ting, bạn hãy nêu yêu cầu bằng tiếng nói.
+- Ứng dụng trợ lý ảo VIAS bao gồm các tính năng sau mà bạn có thể ra yêu cầu:
+1.  Tính năng đọc báo: tính năng đọc báo của ứng dụng VIAS lấy nguồn tin từ báo vnexpress.vn về các chủ đề: "thời sự", "thế giới", "kinh doanh", "giải trí", "thể thao", "pháp luật", "giáo dục". Bạn có thể nêu yêu cầu như sau để mở đọc báo: "Đọc tin" kèm với chủ đề tin tức. Ví dụ: "Đọc tin thời sự"
+    Ứng dụng VIAS sẽ đọc các tiêu đề bản tin và nêu số thứ tự. Nếu bạn muốn đọc bản tin nào, hãy nêu yêu cầu: “Đọc tin” kèm với số thứ tự của bản tin cần đọc. Ví dụ “đọc tin số 1”. Trong lúc đọc bản tin, bạn có thể tạm dừng hoặc hủy tạm dừng bằng cách tap vào màn hình. Để thoát, bạn hãy nêu yêu cầu “thoát”
+2.  Tính năng tra cứu tài liệu Wikipedia: ứng dụng VIAS có thể truy cập vào cơ sở dữ liệu của bách khoa toàn thư mở Wikipedia và tải văn bản tài liệu về nhiều sự vật, hiện tượng, lý thuyết về nhiều lĩnh vực và đọc tài liệu đó bằng tiếng nói
+    Để sử dụng, bạn hãy nêu yêu cầu tìm hiểu về một sự vật hiện tượng mà bạn cần tìm hiểu. Ví dụ: khi cần tìm hiểu về Toán học, hãy ra lệnh "tìm hiểu về Toán học" hoặc chỉ đơn giản là hỏi "Toán học là gì?", VIAS sẽ lấy dữ liệu thông tin Toán học từ Wikipedia và đọc cho bạn
+    Trong lúc đọc tài liệu, bạn có thể tạm dừng hoặc hủy tạm dừng bằng cách tap vào màn hình, nhấn giữ màn hình để thoát
+3.  Tính năng quay số gọi điện thoại bằng giọng nói: Bạn hãy nêu yêu cầu gọi điện thoại, sau đó ứng dụng VIAS sẽ hỏi bạn số điện thoại hoặc tên liên hệ mà bạn muốn gọi
+    Sau khi nêu số điện thoại hoặc tên liên hệ có trong danh bạ, ứng dụng VIAS sẽ tự động bắt đầu gọi tới số điện thoại hoặc liên hệ ấy
+4.  Tính năng gửi tin nhắn bằng giọng nói: Bạn hãy nêu yêu cầu gửi tin nhắn kèm theo tên liên hệ có trong danh bạ hoặc số điện thoại cần gửi, ví dụ: gửi tin nhắn đến 01238464809
+    Sau đó, ứng dụng VIAS sẽ khởi động nhận dạng giọng nói lần nữa và bạn hãy nêu nội dung cần gửi
+    Sau khi đã thu được nội dung tin nhắn cần gửi, ứng dụng sẽ tự động gửi tin nhắn và thông báo lại khi tin nhắn đã gửi hoặc đã được nhận
+5.  Tính năng đọc tin nhắn (bằng tiếng nói) được gửi đến điện thoại: Khi có tin nhắn được gửi đến điện thoại, ứng dụng sẽ phát tiếng nói đọc nội dung tin nhắn và số điện thoại/tên liên hệ đã gửi tin nhắn
+6.  Tính năng thông báo tình hình thời tiết: Khi bạn nêu yêu cầu "thời tiết hôm nay", ứng dụng VIAS sẽ cung cấp cho bạn thông tin về tình hình thời tiết vào ngày hôm đó tại vị trí địa lý của bạn trên bản đồ
+    Bao gồm: kiểu thời tiết, nhiệt độ trung bình, độ ẩm.
+7.  Tính năng thông báo thông tin ngày giờ: Bạn chỉ cần hỏi "hôm nay là ngày mấy?", ứng dụng sẽ đọc thông tin thứ/ngày/tháng bằng tiếng nói; hoặc hỏi "bây giờ là mấy giờ" thì ứng dụng sẽ đọc thông tin giờ, phút hiện tại bằng tiếng nói
+8.  Tính năng tính các biểu thức đơn giản bằng giọng nói: Tính năng này có thể giúp bạn tính các biểu thức đơn giản gồm các phép toán cộng, trừ, nhân, chia, chia lấy phần nguyên hoặc phần dư, lũy thừa
+    Cách sử dụng: bạn chỉ cần nêu một biểu thức toán kèm theo lệnh "tính" hoặc "bằng mấy". Ví dụ: "2 + 3 bằng mấy?" hoặc "hãy tính 3 mũ 3". Ứng dụng sẽ tự động nhận dạng biểu thức từ tiếng nói của bạn và tính ra kết quả, sau đó sẽ thông báo kết quả bằng giọng nói
+9.  Tính năng nghe nhạc: bạn chỉ cần nêu yêu cầu "bật nhạc" hay "bật bài hát" kèm với tên bài hát, ứng dụng VIAS sẽ phát bài hát có tên tương ứng được lưu trong điện thoại của bạn
+    Bạn cũng có thể nêu yêu cầu "phát nhạc ngẫu nhiên", "tạm dừng nhạc", "tiếp tục phát nhạc", "dừng phát nhạc"
+10. Tính năng nhận dạng chữ: Khi bạn nêu yêu cầu "nhận dạng chữ", ứng dụng VIAS sẽ chuyển sang chế độ nhận dạng chữ qua camera, bạn cần đưa camera đến khu vực có chữ cần nhận dạng, ứng dụng VIAS sẽ đọc kết quả chữ thu được nếu tìm thấy chữ, để thoát nhận dạng chữ hãy nhấn giữ màn hình
+11. Tính năng nhận dạng vật thể: Khi bạn nêu yêu cầu "nhận dạng vật thể", ứng dụng VIAS sẽ chuyển sang chế độ nhận vật thể qua camera, sau khi thực hiện nhận dạng VIAS sẽ đọc kết quả về tên vật thể nếu tìm thấy được vật thể qua camera, VIAS có thể nhận dạng được 1000 vật thể khác nhau từ đồ vật đến động vật. Để thoát nhận dạng vật thể hãy nhấn giữ màn hình

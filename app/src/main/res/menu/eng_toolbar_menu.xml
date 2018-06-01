@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/eng_option"
+        android:title="Options"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_options"/>
+
+    <item android:id="@+id/eng_info"
+        android:title="About"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_info"/>
+
+    <!--<item android:id="@+id/eng_manual"
+        android:title="User manual"
+        android:orderInCategory="100"
+        app:showAsAction="never" />-->
+
+    <item android:id="@+id/eng_news"
+        android:title="News reader"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/eng_call"
+        android:title="Call"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/eng_weather"
+        android:title="Weather"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/eng_music"
+        android:title="Music player"
+        android:orderInCategory="100"/>
+
+    <item android:id="@+id/eng_send_sms"
+        android:title="Send SMS"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/eng_ocr"
+        android:title="Text recognizer"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/eng_wiki_item"
+        android:title="Read Wikipedia"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/eng_calculate_item"
+        android:title="Calculator"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/eng_object_recog"
+        android:title="Object recognizer"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <!--<item android:id="@+id/eng_vehicles"
+        android:title="Open Vehicles detector"
+        android:orderInCategory="100"
+        app:showAsAction="never" />-->
+
+    <!--<item android:id="@+id/eng_bluetooth"
+        android:title="Connect VIAS - Eyewear"
+        android:orderInCategory="100"
+        app:showAsAction="never" />-->
+
+   <!-- <item android:id="@+id/eng_home_controller"
+         android:title="Turn on/off electric devices"
+         android:orderInCategory="100"
+         app:showAsAction="never" />-->
+
+ </menu>

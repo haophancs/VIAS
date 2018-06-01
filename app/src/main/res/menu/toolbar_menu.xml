@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/vie_option"
+        android:title="Tùy chọn"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_options"/>
+
+    <item android:id="@+id/info"
+        android:title="Về tác giả"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_info"/>
+
+    <item android:id="@+id/manual"
+        android:title="Hướng dẫn sử dụng"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/news"
+        android:title="Đọc báo"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/call"
+        android:title="Quay số"
+        android:orderInCategory="3"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/send_sms"
+        android:title="Nhắn tin"
+        android:orderInCategory="4"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/calculate_item"
+        android:title="Máy tính"
+        android:orderInCategory="5"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/weather"
+        android:title="Thời tiết"
+        android:orderInCategory="6"/>
+
+    <item android:id="@+id/music"
+        android:title="Nghe nhạc"
+        android:orderInCategory="7"/>
+
+    <item android:id="@+id/ocr"
+        android:title="Nhận dạng chữ"
+        android:orderInCategory="9"
+        app:showAsAction="never" />
+
+    <!--<item android:id="@+id/vehicles"
+        android:title="Phát hiện PTGT"
+        android:orderInCategory="10"
+        app:showAsAction="never" />-->
+
+    <item android:id="@+id/wiki_item"
+        android:title="Tra cứu Wikipedia"
+        android:orderInCategory="12"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/object_recog"
+        android:title="Nhận dạng vật thể"
+        android:orderInCategory="13"
+        app:showAsAction="never" />
+
+    <!-- <item android:id="@+id/bluetooth"
+         android:title="Kết nối kính VIAS"
+         android:orderInCategory="11"
+         app:showAsAction="never" />
+
+     <item android:id="@+id/home_controller"
+         android:title="Bật/Tắt các thiết bị điện"
+         android:orderInCategory="14"
+         app:showAsAction="never" /> -->
+
+ </menu>

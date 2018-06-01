@@ -1,0 +1,6 @@
+1. Enter your destination address in the "Where to?" box, or tap a shortcut icon at the bottom of your screen. Shortcuts include recent destinations from your ride history or custom "Saved Places" you can set in your app
+2. Your default pickup point is set to your current GPS location. If you are not being picked up at your current location, tap your pickup location on the map and update the address
+3. Use the slider at the bottom of your screen to toggle between available vehicle options (for example, uberX or UberBLACK)
+4. Tap "Request." You may be asked to confirm your pickup location
+5. Wait for a driver to accept your request
+6. When your request has been accepted, you'll see your driver's location on your map and an estimated time of arrival at your pickup location
